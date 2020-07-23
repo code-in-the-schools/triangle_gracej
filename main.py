@@ -1,6 +1,15 @@
+ch = input("character: ")
+num =int(input("number: "))
 
-#get user input for character and amount of rows
-ch = input("type a character: ")
-num = input("type a number: ")
+for i in range(1, num + 1):
+    for j in range(1, i + 1 ):
+        print(ch , end = '  ')
+    print()
 
-#use nested for 
+
+for i in range(1, num + 1):
+    for j in range(1, num - i + 2 ):
+        print(ch , end = '  ')
+    print()
+  
+  
